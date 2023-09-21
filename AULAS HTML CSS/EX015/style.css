@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*charset utf-8 para poblemas com acentuacão*/
+
+body {
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+    color: rgb(0, 132, 248);
+}
+
+p {
+    background-color: cyan;
+}

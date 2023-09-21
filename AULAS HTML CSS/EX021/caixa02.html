@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 10px 10px 10px;
+        }
+        nav{
+            background-color: rgb(88, 88, 88);
+            padding: 1px;
+            box-shadow: 0px 1px 10px black;
+            text-align: center;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            
+        }
+        main{
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 10px 10px 10px;
+        }
+        article{
+            background-color: lightgrey;
+        }
+        article > aside {
+            background-color: rgb(36, 36, 36);
+            color: white;
+        }
+        footer{
+            background-color: rgb(0, 0, 0);
+            color: white;
+            text-align: center;
+            padding: 4px;
+        }
+        footer > p{
+            margin: 0px;
+        }
+        .center{
+            padding: 10px;
+        }
+    </style>
+    <title>Tags de agrupamento</title>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="assuntos">
+            esportes politica e tecnologia
+        </section>
+        <section id="noticias">
+            <article>
+                <h2 class="center">noticias do brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero error ullam assumenda ex nisi cum! Harum, sit. Incidunt neque sit dignissimos, accusantium laboriosam repellendus et a maxime tempore dolorum odit.</p>
+                <aside>
+                    <p>artigo escrito por keka</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Desenvolvido por KEKA</p>
+    </footer>
+</body>
+</html>
