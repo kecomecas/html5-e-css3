@@ -18,7 +18,7 @@ body {
 
 }
 
-header {
+head {
 
 }
 
@@ -83,7 +83,7 @@ strong {
 }
 
 img {
-    width: 565px;
+
 }
 
 nav > a {
@@ -107,7 +107,7 @@ li {
 }
 
 hr {
-    margin-top: -42px;
+
 }
 
 .blue-text {
