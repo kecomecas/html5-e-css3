@@ -23,7 +23,11 @@ header {
 }
 
 main {
-
+    min-width: 300px;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 20px;
 }
 
 article {
@@ -36,15 +40,24 @@ section {
 
 nav {
     text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
 }
 
 footer{
-
+    background-color: #202020;
+}
+footer > p {
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+    letter-spacing: .15ex;
 }
 
 h1 {
     color: var(--cor1);
     text-align: left;
+    margin: 10px;
 }
 
 h2 {
@@ -53,20 +66,56 @@ h2 {
 }
 
 h3 {
-
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    margin-top: 30px;
 }
 
 p{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+strong {
+    letter-spacing: .15ex;
+}
+
+img {
+    width: 565px;
 }
 
 nav > a {
     color: var(--cor3);
     text-decoration: none;
     transition-duration: 0.2s;
+    padding-left: 10px;
+
 }
 
 nav > a:hover {
     color: var(--cor4);
     border-radius: 10px;
+}
+
+li {
+    padding: 10px;
+    font-family: 'roboto';
+    font-weight: lighter;
+    text-align: justify;
+}
+
+hr {
+    margin-top: -42px;
+}
+
+.blue-text {
+    color: var(--cor4);
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+}
+
+.prf {
+    color: var(--cor4);
 }
