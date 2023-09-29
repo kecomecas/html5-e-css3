@@ -80,10 +80,12 @@ section.imagem > p {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.52);
     text-shadow: 1px 1px 0px black;
+    border-radius: 2px;
+    padding: 0px 20px;
 }
 
 section#img1 {
-    background-image: url(../imagens/background001.jpg);
+    background-image: url(../imagens/);
     background-position: right center;
 }
 
